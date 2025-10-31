@@ -19,7 +19,7 @@ public:
 	int GetAge();
 	int GetYear();
 
-	void SetAverage(int y);
+	void SetAverage(double y);
 	void SetAge(int y);
 	void SetYear(int y);
 	void Input();
@@ -77,7 +77,7 @@ inline int Student::GetYear()
 }
 
 
-void Student::SetAverage(int y)
+void Student::SetAverage(double y)
 {
 	if (y < 0)
 	{
